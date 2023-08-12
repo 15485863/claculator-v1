@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70ECFD9E2983A32500EA587F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ECFD9D2983A32500EA587F /* AppDelegate.swift */; };
+		70ECFDA02983A32500EA587F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ECFD9F2983A32500EA587F /* ViewController.swift */; };
+		70ECFDA22983A32B00EA587F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70ECFDA12983A32B00EA587F /* Assets.xcassets */; };
+		70ECFDA52983A32B00EA587F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70ECFDA32983A32B00EA587F /* Main.storyboard */; };
+		70ECFDB12983A32B00EA587F /* claculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ECFDB02983A32B00EA587F /* claculatorTests.swift */; };
+		70ECFDBC2983A32B00EA587F /* claculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ECFDBB2983A32B00EA587F /* claculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70ECFDAD2983A32B00EA587F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70ECFD922983A32500EA587F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70ECFD992983A32500EA587F;
+			remoteInfo = claculator;
+		};
+		70ECFDB82983A32B00EA587F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70ECFD922983A32500EA587F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70ECFD992983A32500EA587F;
+			remoteInfo = claculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70ECFD9A2983A32500EA587F /* claculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = claculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70ECFD9D2983A32500EA587F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70ECFD9F2983A32500EA587F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70ECFDA12983A32B00EA587F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70ECFDA42983A32B00EA587F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70ECFDA62983A32B00EA587F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70ECFDA72983A32B00EA587F /* claculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = claculator.entitlements; sourceTree = "<group>"; };
+		70ECFDAC2983A32B00EA587F /* claculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = claculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70ECFDB02983A32B00EA587F /* claculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = claculatorTests.swift; sourceTree = "<group>"; };
+		70ECFDB22983A32B00EA587F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70ECFDB72983A32B00EA587F /* claculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = claculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70ECFDBB2983A32B00EA587F /* claculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = claculatorUITests.swift; sourceTree = "<group>"; };
+		70ECFDBD2983A32B00EA587F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70ECFD972983A32500EA587F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ECFDA92983A32B00EA587F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ECFDB42983A32B00EA587F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70ECFD912983A32500EA587F = {
+			isa = PBXGroup;
+			children = (
+				70ECFD9C2983A32500EA587F /* claculator */,
+				70ECFDAF2983A32B00EA587F /* claculatorTests */,
+				70ECFDBA2983A32B00EA587F /* claculatorUITests */,
+				70ECFD9B2983A32500EA587F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70ECFD9B2983A32500EA587F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70ECFD9A2983A32500EA587F /* claculator.app */,
+				70ECFDAC2983A32B00EA587F /* claculatorTests.xctest */,
+				70ECFDB72983A32B00EA587F /* claculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70ECFD9C2983A32500EA587F /* claculator */ = {
+			isa = PBXGroup;
+			children = (
+				70ECFD9D2983A32500EA587F /* AppDelegate.swift */,
+				70ECFD9F2983A32500EA587F /* ViewController.swift */,
+				70ECFDA12983A32B00EA587F /* Assets.xcassets */,
+				70ECFDA32983A32B00EA587F /* Main.storyboard */,
+				70ECFDA62983A32B00EA587F /* Info.plist */,
+				70ECFDA72983A32B00EA587F /* claculator.entitlements */,
+			);
+			path = claculator;
+			sourceTree = "<group>";
+		};
+		70ECFDAF2983A32B00EA587F /* claculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				70ECFDB02983A32B00EA587F /* claculatorTests.swift */,
+				70ECFDB22983A32B00EA587F /* Info.plist */,
+			);
+			path = claculatorTests;
+			sourceTree = "<group>";
+		};
+		70ECFDBA2983A32B00EA587F /* claculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70ECFDBB2983A32B00EA587F /* claculatorUITests.swift */,
+				70ECFDBD2983A32B00EA587F /* Info.plist */,
+			);
+			path = claculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70ECFD992983A32500EA587F /* claculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70ECFDC02983A32B00EA587F /* Build configuration list for PBXNativeTarget "claculator" */;
+			buildPhases = (
+				70ECFD962983A32500EA587F /* Sources */,
+				70ECFD972983A32500EA587F /* Frameworks */,
+				70ECFD982983A32500EA587F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = claculator;
+			productName = claculator;
+			productReference = 70ECFD9A2983A32500EA587F /* claculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70ECFDAB2983A32B00EA587F /* claculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70ECFDC32983A32B00EA587F /* Build configuration list for PBXNativeTarget "claculatorTests" */;
+			buildPhases = (
+				70ECFDA82983A32B00EA587F /* Sources */,
+				70ECFDA92983A32B00EA587F /* Frameworks */,
+				70ECFDAA2983A32B00EA587F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70ECFDAE2983A32B00EA587F /* PBXTargetDependency */,
+			);
+			name = claculatorTests;
+			productName = claculatorTests;
+			productReference = 70ECFDAC2983A32B00EA587F /* claculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70ECFDB62983A32B00EA587F /* claculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70ECFDC62983A32B00EA587F /* Build configuration list for PBXNativeTarget "claculatorUITests" */;
+			buildPhases = (
+				70ECFDB32983A32B00EA587F /* Sources */,
+				70ECFDB42983A32B00EA587F /* Frameworks */,
+				70ECFDB52983A32B00EA587F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70ECFDB92983A32B00EA587F /* PBXTargetDependency */,
+			);
+			name = claculatorUITests;
+			productName = claculatorUITests;
+			productReference = 70ECFDB72983A32B00EA587F /* claculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70ECFD922983A32500EA587F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					70ECFD992983A32500EA587F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					70ECFDAB2983A32B00EA587F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 70ECFD992983A32500EA587F;
+					};
+					70ECFDB62983A32B00EA587F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 70ECFD992983A32500EA587F;
+					};
+				};
+			};
+			buildConfigurationList = 70ECFD952983A32500EA587F /* Build configuration list for PBXProject "claculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70ECFD912983A32500EA587F;
+			productRefGroup = 70ECFD9B2983A32500EA587F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70ECFD992983A32500EA587F /* claculator */,
+				70ECFDAB2983A32B00EA587F /* claculatorTests */,
+				70ECFDB62983A32B00EA587F /* claculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70ECFD982983A32500EA587F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70ECFDA22983A32B00EA587F /* Assets.xcassets in Resources */,
+				70ECFDA52983A32B00EA587F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ECFDAA2983A32B00EA587F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ECFDB52983A32B00EA587F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70ECFD962983A32500EA587F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70ECFDA02983A32500EA587F /* ViewController.swift in Sources */,
+				70ECFD9E2983A32500EA587F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ECFDA82983A32B00EA587F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70ECFDB12983A32B00EA587F /* claculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ECFDB32983A32B00EA587F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70ECFDBC2983A32B00EA587F /* claculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70ECFDAE2983A32B00EA587F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70ECFD992983A32500EA587F /* claculator */;
+			targetProxy = 70ECFDAD2983A32B00EA587F /* PBXContainerItemProxy */;
+		};
+		70ECFDB92983A32B00EA587F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70ECFD992983A32500EA587F /* claculator */;
+			targetProxy = 70ECFDB82983A32B00EA587F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70ECFDA32983A32B00EA587F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70ECFDA42983A32B00EA587F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70ECFDBE2983A32B00EA587F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70ECFDBF2983A32B00EA587F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		70ECFDC12983A32B00EA587F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = claculator/claculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = claculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.claculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		70ECFDC22983A32B00EA587F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = claculator/claculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = claculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.claculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		70ECFDC42983A32B00EA587F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = claculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.claculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/claculator.app/Contents/MacOS/claculator";
+			};
+			name = Debug;
+		};
+		70ECFDC52983A32B00EA587F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = claculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.claculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/claculator.app/Contents/MacOS/claculator";
+			};
+			name = Release;
+		};
+		70ECFDC72983A32B00EA587F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = claculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.claculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = claculator;
+			};
+			name = Debug;
+		};
+		70ECFDC82983A32B00EA587F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = claculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.claculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = claculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70ECFD952983A32500EA587F /* Build configuration list for PBXProject "claculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70ECFDBE2983A32B00EA587F /* Debug */,
+				70ECFDBF2983A32B00EA587F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70ECFDC02983A32B00EA587F /* Build configuration list for PBXNativeTarget "claculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70ECFDC12983A32B00EA587F /* Debug */,
+				70ECFDC22983A32B00EA587F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70ECFDC32983A32B00EA587F /* Build configuration list for PBXNativeTarget "claculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70ECFDC42983A32B00EA587F /* Debug */,
+				70ECFDC52983A32B00EA587F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70ECFDC62983A32B00EA587F /* Build configuration list for PBXNativeTarget "claculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70ECFDC72983A32B00EA587F /* Debug */,
+				70ECFDC82983A32B00EA587F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70ECFD922983A32500EA587F /* Project object */;
+}
